@@ -1,4 +1,9 @@
 #!/bin/bash
 echo "what is your favourite color"
-read color
-echo "Nice! $color is a nice choice"
+read like_color
+
+if [ "$like_color" = "blue" ]; then
+	echo "Nice! blue is a nice choice"
+else
+	echo "Thats a cool color"
+fi
