@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "What is the weather(rainy or sunny)"
+read weather
+if [ "$weather" = "rainy"]; then
+        echo "its rainy take an umbrella"
+else
+        echo "stay under a shade"
+fi
